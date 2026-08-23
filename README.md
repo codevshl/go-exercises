@@ -23,8 +23,8 @@ go run ./concurrency/workerpool
 | `concurrency/producerconsumer` | Producers, consumers, channels, and `sync.WaitGroup` |
 | `concurrency/rwmutexcache` | Read-heavy in-memory cache with `sync.RWMutex` |
 | `concurrency/singleownergoroutine` | One goroutine owning mutable counter state |
+| `concurrency/tokenbucketratelimiter` | Token-bucket rate limiting with a buffered channel, burst capacity, and `context.Context` cancellation |
 | `concurrency/workerpool` | Fixed-size worker pool |
-
 
 ## Conventions
 
